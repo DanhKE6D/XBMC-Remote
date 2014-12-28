@@ -16,4 +16,4 @@
 		android:drawableLeft="@drawable/icon_album_dark" 
 		android:gravity="center_vertical|center_horizontal" 
 		android:drawablePadding="10dip" />
-</LinearLayout><!-- From: file:/home/dql/SoftwareDev/Android/android-xbmcremote/app/src/main/res/layout/listmessage.xml -->
+</LinearLayout><!-- From: file:/home/dql/SoftwareDev/Android/test/XBMC-Remote/app/src/main/res/layout/listmessage.xml -->

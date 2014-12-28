@@ -44,4 +44,4 @@
             android:layout_weight="1"
             android:text="@string/wizard_next" />
     </LinearLayout>
-</RelativeLayout><!-- From: file:/home/dql/SoftwareDev/Android/android-xbmcremote/app/src/main/res/layout/setup_wizard.xml -->
+</RelativeLayout><!-- From: file:/home/dql/SoftwareDev/Android/test/XBMC-Remote/app/src/main/res/layout/setup_wizard.xml -->

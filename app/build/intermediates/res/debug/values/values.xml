@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/dql/SoftwareDev/Android/android-xbmcremote/app/src/main/res/values/arrays.xml -->
+    <!-- From: file:/home/dql/SoftwareDev/Android/test/XBMC-Remote/app/src/main/res/values/arrays.xml -->
     <eat-comment/>
     <string-array name="KeyguardPreferenceEntries">
 		<item>Never</item>
@@ -20,7 +20,7 @@
 		<item>0</item>
 		<item>1</item>
 	</string-array>
-    <!-- From: file:/home/dql/SoftwareDev/Android/android-xbmcremote/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/home/dql/SoftwareDev/Android/test/XBMC-Remote/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="listitem_back">#fff8f8f8</color>
     <color name="listitem_back_selected">#00ffffff</color>
@@ -30,15 +30,15 @@
     <declare-styleable name="SlidingTabScrollView"><attr format="boolean" name="fillViewport"/></declare-styleable>
     <declare-styleable name="SlidingTabWidget"><attr format="integer" name="separationWidth"/></declare-styleable>
     <declare-styleable name="Theme"><attr format="reference" name="slidingTabWidgetStyle"/><attr format="reference" name="slidingTabScrollViewStyle"/></declare-styleable>
-    <!-- From: file:/home/dql/SoftwareDev/Android/android-xbmcremote/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/home/dql/SoftwareDev/Android/test/XBMC-Remote/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="widget_margin">4dp</dimen>
-    <!-- From: file:/home/dql/SoftwareDev/Android/android-xbmcremote/app/src/main/res/values/ids.xml -->
+    <!-- From: file:/home/dql/SoftwareDev/Android/test/XBMC-Remote/app/src/main/res/values/ids.xml -->
     <eat-comment/>
     <item name="slidingtabcontent" type="id"/>
     <item name="slidingtabhost" type="id"/>
     <item name="slidingtabs" type="id"/>
-    <!-- From: file:/home/dql/SoftwareDev/Android/android-xbmcremote/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/dql/SoftwareDev/Android/test/XBMC-Remote/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="add_from_barcode">Add from Barcode</string>
     <string name="added_host">Successfully added \"%s\"</string>
@@ -86,20 +86,20 @@ Please wait.</string>
     <string name="wizard_next">Next</string>
     <string name="wizard_previous">Previous</string>
     <string name="yes">Yes</string>
-    <!-- From: file:/home/dql/SoftwareDev/Android/android-xbmcremote/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/home/dql/SoftwareDev/Android/test/XBMC-Remote/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="SlidingTabScrollView">
 	</style>
     <style name="SlidingTabWidget">
 		<item name="separationWidth">75</item>
 	</style>
-    <!-- From: file:/home/dql/SoftwareDev/Android/android-xbmcremote/app/src/main/res/values/themes.xml -->
+    <!-- From: file:/home/dql/SoftwareDev/Android/test/XBMC-Remote/app/src/main/res/values/themes.xml -->
     <eat-comment/>
     <style name="Theme">
         <item name="slidingTabWidgetStyle">@style/SlidingTabWidget</item>
         <item name="slidingTabScrollViewStyle">@style/SlidingTabScrollView</item>
     </style>
-    <!-- From: file:/home/dql/SoftwareDev/Android/android-xbmcremote/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/home/dql/SoftwareDev/Android/test/XBMC-Remote/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="Theme.NoBackground.NoTitleBar" parent="android:Theme.NoTitleBar">
 		<item name="android:windowBackground">@null</item>
@@ -118,7 +118,7 @@ Please wait.</string>
     	<item name="android:divider">#a0a0a0</item>
     	<item name="android:dividerHeight">1dip</item>
     </style>
-    <!-- From: file:/home/dql/SoftwareDev/Android/android-xbmcremote/app/src/main/res/values/public.xml -->
+    <!-- From: file:/home/dql/SoftwareDev/Android/test/XBMC-Remote/app/src/main/res/values/public.xml -->
     <eat-comment/>
     <public id="0x9f040000" name="slidingtabcontent" type="id"/>
     <public id="0x9f040001" name="slidingtabhost" type="id"/>

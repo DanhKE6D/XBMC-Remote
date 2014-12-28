@@ -19,4 +19,4 @@
 		android:shadowDx="-1"
 		android:shadowRadius="0.1" 
 		android:shadowColor="#000000" android:lines="1" android:marqueeRepeatLimit="1" android:scrollHorizontally="true" android:ellipsize="start"/>
-</LinearLayout><!-- From: file:/home/dql/SoftwareDev/Android/android-xbmcremote/app/src/main/res/layout/titlebar.xml -->
+</LinearLayout><!-- From: file:/home/dql/SoftwareDev/Android/test/XBMC-Remote/app/src/main/res/layout/titlebar.xml -->

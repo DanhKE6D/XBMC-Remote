@@ -95,4 +95,4 @@
             android:background="@drawable/remote_xbox_widget_next" />
     </LinearLayout>
 
-</LinearLayout><!-- From: file:/home/dql/SoftwareDev/Android/android-xbmcremote/app/src/main/res/layout/widget_xbox_small.xml -->
+</LinearLayout><!-- From: file:/home/dql/SoftwareDev/Android/test/XBMC-Remote/app/src/main/res/layout/widget_xbox_small.xml -->

@@ -16,4 +16,4 @@ android:text="@string/setup_wizard_retry"
 android:visibility="invisible"></Button>
 
 </LinearLayout>
-<!-- From: file:/home/dql/SoftwareDev/Android/android-xbmcremote/app/src/main/res/layout/setup_page_3.xml -->
+<!-- From: file:/home/dql/SoftwareDev/Android/test/XBMC-Remote/app/src/main/res/layout/setup_page_3.xml -->

@@ -13,4 +13,4 @@
 			android:layout_height="wrap_content" android:id="@+id/TitleTextView"
 			android:textSize="24dip" android:text="Title" android:textColor="#ffffff"></TextView>
 	</LinearLayout>
-</LinearLayout><!-- From: file:/home/dql/SoftwareDev/Android/android-xbmcremote/app/src/main/res/layout/home_item.xml -->
+</LinearLayout><!-- From: file:/home/dql/SoftwareDev/Android/test/XBMC-Remote/app/src/main/res/layout/home_item.xml -->

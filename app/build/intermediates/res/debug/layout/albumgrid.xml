@@ -6,4 +6,4 @@
     android:horizontalSpacing="0dp"
     android:stretchMode="columnWidth"
     android:gravity="center"
-android:numColumns="3" android:isScrollContainer="true" android:layout_width="wrap_content" android:columnWidth="100dip"/><!-- From: file:/home/dql/SoftwareDev/Android/android-xbmcremote/app/src/main/res/layout/albumgrid.xml -->
+android:numColumns="3" android:isScrollContainer="true" android:layout_width="wrap_content" android:columnWidth="100dip"/><!-- From: file:/home/dql/SoftwareDev/Android/test/XBMC-Remote/app/src/main/res/layout/albumgrid.xml -->

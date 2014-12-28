@@ -8,4 +8,4 @@
     <item android:state_pressed="true" android:state_selected="true" android:drawable="@color/listitem_back_selected" />
 
     <item android:state_last="true" android:drawable="@drawable/listitem_bottom_rounded" />
-</selector><!-- From: file:/home/dql/SoftwareDev/Android/android-xbmcremote/app/src/main/res/drawable/listitem_bg.xml -->
+</selector><!-- From: file:/home/dql/SoftwareDev/Android/test/XBMC-Remote/app/src/main/res/drawable/listitem_bg.xml -->

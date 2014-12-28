@@ -28,4 +28,4 @@
 			android:layout_height="wrap_content" android:layout_width="wrap_content"
 			android:layout_margin="5dip" android:orientation="vertical" />
 	</ScrollView>
-</LinearLayout><!-- From: file:/home/dql/SoftwareDev/Android/android-xbmcremote/app/src/main/res/layout/artistinfo.xml -->
+</LinearLayout><!-- From: file:/home/dql/SoftwareDev/Android/test/XBMC-Remote/app/src/main/res/layout/artistinfo.xml -->

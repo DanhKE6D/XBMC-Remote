@@ -72,4 +72,4 @@
 		<Button android:layout_weight="99" android:layout_width="0px" android:layout_height="fill_parent" android:id="@+id/RemoteXboxImgBtnBack"
 			android:background="@drawable/remote_xbox_back" android:focusable="false" android:focusableInTouchMode="false" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
 	</LinearLayout>
-</LinearLayout><!-- From: file:/home/dql/SoftwareDev/Android/android-xbmcremote/app/src/main/res/layout/remote_xbox.xml -->
+</LinearLayout><!-- From: file:/home/dql/SoftwareDev/Android/test/XBMC-Remote/app/src/main/res/layout/remote_xbox.xml -->

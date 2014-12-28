@@ -76,4 +76,4 @@
 			android:layout_height="wrap_content" android:id="@+id/RemoteXboxImgBtnBack"
 			android:background="@drawable/remote_xbox_back" android:focusable="false" android:focusableInTouchMode="false" />
 	</LinearLayout>
-</LinearLayout><!-- From: file:/home/dql/SoftwareDev/Android/android-xbmcremote/app/src/main/res/layout-ldpi-v4/remote_xbox.xml -->
+</LinearLayout><!-- From: file:/home/dql/SoftwareDev/Android/test/XBMC-Remote/app/src/main/res/layout-ldpi-v4/remote_xbox.xml -->

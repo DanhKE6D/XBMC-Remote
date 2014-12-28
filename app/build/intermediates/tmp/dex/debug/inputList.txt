@@ -1,0 +1,3 @@
+/home/dql/SoftwareDev/Android/android-xbmcremote/app/build/intermediates/classes/debug
+/home/dql/SoftwareDev/Android/android-xbmcremote/app/build/intermediates/pre-dexed/debug/jmdns-fa0c6ac12e613d43eb984f64cfb8bc8de1aeec1f.jar
+/home/dql/SoftwareDev/Android/android-xbmcremote/app/build/intermediates/pre-dexed/debug/acra-4.4.0-a78d38c7768105de047308b7d8475bfbe66d1d07.jar

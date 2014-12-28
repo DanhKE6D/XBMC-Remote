@@ -1,0 +1,323 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* README.md
+* ant.properties
+* build.xml
+* lib-src\
+* lib-src\org\
+* lib-src\org\codehaus\
+* lib-src\org\codehaus\jackson\
+* lib-src\org\codehaus\jackson\Base64Variant.java
+* lib-src\org\codehaus\jackson\Base64Variants.java
+* lib-src\org\codehaus\jackson\JsonEncoding.java
+* lib-src\org\codehaus\jackson\JsonFactory.java
+* lib-src\org\codehaus\jackson\JsonGenerationException.java
+* lib-src\org\codehaus\jackson\JsonGenerator.java
+* lib-src\org\codehaus\jackson\JsonLocation.java
+* lib-src\org\codehaus\jackson\JsonNode.java
+* lib-src\org\codehaus\jackson\JsonParseException.java
+* lib-src\org\codehaus\jackson\JsonParser.java
+* lib-src\org\codehaus\jackson\JsonProcessingException.java
+* lib-src\org\codehaus\jackson\JsonStreamContext.java
+* lib-src\org\codehaus\jackson\JsonToken.java
+* lib-src\org\codehaus\jackson\ObjectCodec.java
+* lib-src\org\codehaus\jackson\PrettyPrinter.java
+* lib-src\org\codehaus\jackson\annotate\
+* lib-src\org\codehaus\jackson\annotate\JacksonAnnotation.java
+* lib-src\org\codehaus\jackson\annotate\JsonAnySetter.java
+* lib-src\org\codehaus\jackson\annotate\JsonAutoDetect.java
+* lib-src\org\codehaus\jackson\annotate\JsonClass.java
+* lib-src\org\codehaus\jackson\annotate\JsonContentClass.java
+* lib-src\org\codehaus\jackson\annotate\JsonCreator.java
+* lib-src\org\codehaus\jackson\annotate\JsonGetter.java
+* lib-src\org\codehaus\jackson\annotate\JsonIgnore.java
+* lib-src\org\codehaus\jackson\annotate\JsonIgnoreProperties.java
+* lib-src\org\codehaus\jackson\annotate\JsonKeyClass.java
+* lib-src\org\codehaus\jackson\annotate\JsonMethod.java
+* lib-src\org\codehaus\jackson\annotate\JsonProperty.java
+* lib-src\org\codehaus\jackson\annotate\JsonPropertyOrder.java
+* lib-src\org\codehaus\jackson\annotate\JsonSetter.java
+* lib-src\org\codehaus\jackson\annotate\JsonSubTypes.java
+* lib-src\org\codehaus\jackson\annotate\JsonTypeInfo.java
+* lib-src\org\codehaus\jackson\annotate\JsonTypeName.java
+* lib-src\org\codehaus\jackson\annotate\JsonValue.java
+* lib-src\org\codehaus\jackson\annotate\JsonWriteNullProperties.java
+* lib-src\org\codehaus\jackson\annotate\package-info.java
+* lib-src\org\codehaus\jackson\impl\
+* lib-src\org\codehaus\jackson\impl\ByteSourceBootstrapper.java
+* lib-src\org\codehaus\jackson\impl\DefaultPrettyPrinter.java
+* lib-src\org\codehaus\jackson\impl\Indenter.java
+* lib-src\org\codehaus\jackson\impl\JsonGeneratorBase.java
+* lib-src\org\codehaus\jackson\impl\JsonNumericParserBase.java
+* lib-src\org\codehaus\jackson\impl\JsonParserBase.java
+* lib-src\org\codehaus\jackson\impl\JsonReadContext.java
+* lib-src\org\codehaus\jackson\impl\JsonWriteContext.java
+* lib-src\org\codehaus\jackson\impl\ReaderBasedNumericParser.java
+* lib-src\org\codehaus\jackson\impl\ReaderBasedParser.java
+* lib-src\org\codehaus\jackson\impl\ReaderBasedParserBase.java
+* lib-src\org\codehaus\jackson\impl\StreamBasedParserBase.java
+* lib-src\org\codehaus\jackson\impl\Utf8NumericParser.java
+* lib-src\org\codehaus\jackson\impl\Utf8StreamParser.java
+* lib-src\org\codehaus\jackson\impl\WriterBasedGenerator.java
+* lib-src\org\codehaus\jackson\impl\package-info.java
+* lib-src\org\codehaus\jackson\io\
+* lib-src\org\codehaus\jackson\io\BaseReader.java
+* lib-src\org\codehaus\jackson\io\IOContext.java
+* lib-src\org\codehaus\jackson\io\MergedStream.java
+* lib-src\org\codehaus\jackson\io\NumberInput.java
+* lib-src\org\codehaus\jackson\io\NumberOutput.java
+* lib-src\org\codehaus\jackson\io\SegmentedStringWriter.java
+* lib-src\org\codehaus\jackson\io\UTF32Reader.java
+* lib-src\org\codehaus\jackson\io\UTF8Writer.java
+* lib-src\org\codehaus\jackson\io\package.html
+* lib-src\org\codehaus\jackson\map\
+* lib-src\org\codehaus\jackson\map\AnnotationIntrospector.java
+* lib-src\org\codehaus\jackson\map\BeanDescription.java
+* lib-src\org\codehaus\jackson\map\ClassIntrospector.java
+* lib-src\org\codehaus\jackson\map\DeserializationConfig.java
+* lib-src\org\codehaus\jackson\map\DeserializationContext.java
+* lib-src\org\codehaus\jackson\map\DeserializationProblemHandler.java
+* lib-src\org\codehaus\jackson\map\DeserializerFactory.java
+* lib-src\org\codehaus\jackson\map\DeserializerProvider.java
+* lib-src\org\codehaus\jackson\map\JsonDeserializer.java
+* lib-src\org\codehaus\jackson\map\JsonMappingException.java
+* lib-src\org\codehaus\jackson\map\JsonSerializable.java
+* lib-src\org\codehaus\jackson\map\JsonSerializableWithType.java
+* lib-src\org\codehaus\jackson\map\JsonSerializer.java
+* lib-src\org\codehaus\jackson\map\KeyDeserializer.java
+* lib-src\org\codehaus\jackson\map\MapperConfig.java
+* lib-src\org\codehaus\jackson\map\MappingJsonFactory.java
+* lib-src\org\codehaus\jackson\map\ObjectMapper.java
+* lib-src\org\codehaus\jackson\map\ObjectWriter.java
+* lib-src\org\codehaus\jackson\map\ResolvableDeserializer.java
+* lib-src\org\codehaus\jackson\map\ResolvableSerializer.java
+* lib-src\org\codehaus\jackson\map\RuntimeJsonMappingException.java
+* lib-src\org\codehaus\jackson\map\SerializationConfig.java
+* lib-src\org\codehaus\jackson\map\SerializerFactory.java
+* lib-src\org\codehaus\jackson\map\SerializerProvider.java
+* lib-src\org\codehaus\jackson\map\TreeMapper.java
+* lib-src\org\codehaus\jackson\map\TypeDeserializer.java
+* lib-src\org\codehaus\jackson\map\TypeSerializer.java
+* lib-src\org\codehaus\jackson\map\annotate\
+* lib-src\org\codehaus\jackson\map\annotate\JsonCachable.java
+* lib-src\org\codehaus\jackson\map\annotate\JsonDeserialize.java
+* lib-src\org\codehaus\jackson\map\annotate\JsonSerialize.java
+* lib-src\org\codehaus\jackson\map\annotate\JsonTypeIdResolver.java
+* lib-src\org\codehaus\jackson\map\annotate\JsonTypeResolver.java
+* lib-src\org\codehaus\jackson\map\annotate\JsonView.java
+* lib-src\org\codehaus\jackson\map\annotate\NoClass.java
+* lib-src\org\codehaus\jackson\map\annotate\package-info.java
+* lib-src\org\codehaus\jackson\map\deser\
+* lib-src\org\codehaus\jackson\map\deser\ArrayDeserializer.java
+* lib-src\org\codehaus\jackson\map\deser\ArrayDeserializers.java
+* lib-src\org\codehaus\jackson\map\deser\BasicDeserializerFactory.java
+* lib-src\org\codehaus\jackson\map\deser\BeanDeserializer.java
+* lib-src\org\codehaus\jackson\map\deser\BeanDeserializerFactory.java
+* lib-src\org\codehaus\jackson\map\deser\CollectionDeserializer.java
+* lib-src\org\codehaus\jackson\map\deser\Creator.java
+* lib-src\org\codehaus\jackson\map\deser\CreatorContainer.java
+* lib-src\org\codehaus\jackson\map\deser\CustomDeserializerFactory.java
+* lib-src\org\codehaus\jackson\map\deser\DateDeserializer.java
+* lib-src\org\codehaus\jackson\map\deser\EnumDeserializer.java
+* lib-src\org\codehaus\jackson\map\deser\EnumMapDeserializer.java
+* lib-src\org\codehaus\jackson\map\deser\EnumResolver.java
+* lib-src\org\codehaus\jackson\map\deser\EnumSetDeserializer.java
+* lib-src\org\codehaus\jackson\map\deser\FromStringDeserializer.java
+* lib-src\org\codehaus\jackson\map\deser\JsonNodeDeserializer.java
+* lib-src\org\codehaus\jackson\map\deser\MapDeserializer.java
+* lib-src\org\codehaus\jackson\map\deser\PropertyValue.java
+* lib-src\org\codehaus\jackson\map\deser\PropertyValueBuffer.java
+* lib-src\org\codehaus\jackson\map\deser\SettableAnyProperty.java
+* lib-src\org\codehaus\jackson\map\deser\SettableBeanProperty.java
+* lib-src\org\codehaus\jackson\map\deser\StdDeserializationContext.java
+* lib-src\org\codehaus\jackson\map\deser\StdDeserializer.java
+* lib-src\org\codehaus\jackson\map\deser\StdDeserializerProvider.java
+* lib-src\org\codehaus\jackson\map\deser\StdDeserializers.java
+* lib-src\org\codehaus\jackson\map\deser\StdKeyDeserializer.java
+* lib-src\org\codehaus\jackson\map\deser\StdKeyDeserializers.java
+* lib-src\org\codehaus\jackson\map\deser\StdScalarDeserializer.java
+* lib-src\org\codehaus\jackson\map\deser\ThrowableDeserializer.java
+* lib-src\org\codehaus\jackson\map\deser\UntypedObjectDeserializer.java
+* lib-src\org\codehaus\jackson\map\deser\package-info.java
+* lib-src\org\codehaus\jackson\map\introspect\
+* lib-src\org\codehaus\jackson\map\introspect\Annotated.java
+* lib-src\org\codehaus\jackson\map\introspect\AnnotatedClass.java
+* lib-src\org\codehaus\jackson\map\introspect\AnnotatedConstructor.java
+* lib-src\org\codehaus\jackson\map\introspect\AnnotatedField.java
+* lib-src\org\codehaus\jackson\map\introspect\AnnotatedMember.java
+* lib-src\org\codehaus\jackson\map\introspect\AnnotatedMethod.java
+* lib-src\org\codehaus\jackson\map\introspect\AnnotatedMethodMap.java
+* lib-src\org\codehaus\jackson\map\introspect\AnnotatedParameter.java
+* lib-src\org\codehaus\jackson\map\introspect\AnnotatedWithParams.java
+* lib-src\org\codehaus\jackson\map\introspect\AnnotationMap.java
+* lib-src\org\codehaus\jackson\map\introspect\BasicBeanDescription.java
+* lib-src\org\codehaus\jackson\map\introspect\BasicClassIntrospector.java
+* lib-src\org\codehaus\jackson\map\introspect\JacksonAnnotationIntrospector.java
+* lib-src\org\codehaus\jackson\map\introspect\MemberKey.java
+* lib-src\org\codehaus\jackson\map\introspect\MethodFilter.java
+* lib-src\org\codehaus\jackson\map\introspect\NopAnnotationIntrospector.java
+* lib-src\org\codehaus\jackson\map\introspect\VisibilityChecker.java
+* lib-src\org\codehaus\jackson\map\introspect\package-info.java
+* lib-src\org\codehaus\jackson\map\jsontype\
+* lib-src\org\codehaus\jackson\map\jsontype\NamedType.java
+* lib-src\org\codehaus\jackson\map\jsontype\TypeIdResolver.java
+* lib-src\org\codehaus\jackson\map\jsontype\TypeResolverBuilder.java
+* lib-src\org\codehaus\jackson\map\jsontype\impl\
+* lib-src\org\codehaus\jackson\map\jsontype\impl\AsArrayTypeDeserializer.java
+* lib-src\org\codehaus\jackson\map\jsontype\impl\AsArrayTypeSerializer.java
+* lib-src\org\codehaus\jackson\map\jsontype\impl\AsPropertyTypeDeserializer.java
+* lib-src\org\codehaus\jackson\map\jsontype\impl\AsPropertyTypeSerializer.java
+* lib-src\org\codehaus\jackson\map\jsontype\impl\AsWrapperTypeDeserializer.java
+* lib-src\org\codehaus\jackson\map\jsontype\impl\AsWrapperTypeSerializer.java
+* lib-src\org\codehaus\jackson\map\jsontype\impl\ClassNameIdResolver.java
+* lib-src\org\codehaus\jackson\map\jsontype\impl\MinimalClassNameIdResolver.java
+* lib-src\org\codehaus\jackson\map\jsontype\impl\StdTypeResolverBuilder.java
+* lib-src\org\codehaus\jackson\map\jsontype\impl\TypeDeserializerBase.java
+* lib-src\org\codehaus\jackson\map\jsontype\impl\TypeIdResolverBase.java
+* lib-src\org\codehaus\jackson\map\jsontype\impl\TypeNameIdResolver.java
+* lib-src\org\codehaus\jackson\map\jsontype\impl\TypeSerializerBase.java
+* lib-src\org\codehaus\jackson\map\jsontype\impl\package-info.java
+* lib-src\org\codehaus\jackson\map\jsontype\package-info.java
+* lib-src\org\codehaus\jackson\map\package-info.java
+* lib-src\org\codehaus\jackson\map\ser\
+* lib-src\org\codehaus\jackson\map\ser\ArraySerializers.java
+* lib-src\org\codehaus\jackson\map\ser\BasicSerializerFactory.java
+* lib-src\org\codehaus\jackson\map\ser\BeanPropertyWriter.java
+* lib-src\org\codehaus\jackson\map\ser\BeanSerializer.java
+* lib-src\org\codehaus\jackson\map\ser\BeanSerializerFactory.java
+* lib-src\org\codehaus\jackson\map\ser\ContainerSerializerBase.java
+* lib-src\org\codehaus\jackson\map\ser\ContainerSerializers.java
+* lib-src\org\codehaus\jackson\map\ser\CustomSerializerFactory.java
+* lib-src\org\codehaus\jackson\map\ser\EnumMapSerializer.java
+* lib-src\org\codehaus\jackson\map\ser\EnumSerializer.java
+* lib-src\org\codehaus\jackson\map\ser\FailingSerializer.java
+* lib-src\org\codehaus\jackson\map\ser\FilteredBeanPropertyWriter.java
+* lib-src\org\codehaus\jackson\map\ser\JdkSerializers.java
+* lib-src\org\codehaus\jackson\map\ser\JsonValueSerializer.java
+* lib-src\org\codehaus\jackson\map\ser\MapSerializer.java
+* lib-src\org\codehaus\jackson\map\ser\NullSerializer.java
+* lib-src\org\codehaus\jackson\map\ser\PropertyBuilder.java
+* lib-src\org\codehaus\jackson\map\ser\ReadOnlyClassToSerializerMap.java
+* lib-src\org\codehaus\jackson\map\ser\ScalarSerializerBase.java
+* lib-src\org\codehaus\jackson\map\ser\SerializerBase.java
+* lib-src\org\codehaus\jackson\map\ser\SerializerCache.java
+* lib-src\org\codehaus\jackson\map\ser\StdKeySerializer.java
+* lib-src\org\codehaus\jackson\map\ser\StdSerializerProvider.java
+* lib-src\org\codehaus\jackson\map\ser\StdSerializers.java
+* lib-src\org\codehaus\jackson\map\ser\ToStringSerializer.java
+* lib-src\org\codehaus\jackson\map\ser\package-info.java
+* lib-src\org\codehaus\jackson\map\type\
+* lib-src\org\codehaus\jackson\map\type\ArrayType.java
+* lib-src\org\codehaus\jackson\map\type\ClassKey.java
+* lib-src\org\codehaus\jackson\map\type\CollectionType.java
+* lib-src\org\codehaus\jackson\map\type\MapType.java
+* lib-src\org\codehaus\jackson\map\type\SimpleType.java
+* lib-src\org\codehaus\jackson\map\type\TypeBase.java
+* lib-src\org\codehaus\jackson\map\type\TypeBindings.java
+* lib-src\org\codehaus\jackson\map\type\TypeFactory.java
+* lib-src\org\codehaus\jackson\map\type\TypeParser.java
+* lib-src\org\codehaus\jackson\map\type\package-info.java
+* lib-src\org\codehaus\jackson\map\util\
+* lib-src\org\codehaus\jackson\map\util\ArrayBuilders.java
+* lib-src\org\codehaus\jackson\map\util\ClassUtil.java
+* lib-src\org\codehaus\jackson\map\util\EnumValues.java
+* lib-src\org\codehaus\jackson\map\util\JSONPObject.java
+* lib-src\org\codehaus\jackson\map\util\JSONWrappedObject.java
+* lib-src\org\codehaus\jackson\map\util\LinkedNode.java
+* lib-src\org\codehaus\jackson\map\util\ObjectBuffer.java
+* lib-src\org\codehaus\jackson\map\util\PrimitiveArrayBuilder.java
+* lib-src\org\codehaus\jackson\map\util\Provider.java
+* lib-src\org\codehaus\jackson\map\util\StdDateFormat.java
+* lib-src\org\codehaus\jackson\map\util\SubTypeHelper.java
+* lib-src\org\codehaus\jackson\map\util\package-info.java
+* lib-src\org\codehaus\jackson\node\
+* lib-src\org\codehaus\jackson\node\ArrayNode.java
+* lib-src\org\codehaus\jackson\node\BaseJsonNode.java
+* lib-src\org\codehaus\jackson\node\BigIntegerNode.java
+* lib-src\org\codehaus\jackson\node\BinaryNode.java
+* lib-src\org\codehaus\jackson\node\BooleanNode.java
+* lib-src\org\codehaus\jackson\node\ContainerNode.java
+* lib-src\org\codehaus\jackson\node\DecimalNode.java
+* lib-src\org\codehaus\jackson\node\DoubleNode.java
+* lib-src\org\codehaus\jackson\node\IntNode.java
+* lib-src\org\codehaus\jackson\node\JsonNodeFactory.java
+* lib-src\org\codehaus\jackson\node\LongNode.java
+* lib-src\org\codehaus\jackson\node\MissingNode.java
+* lib-src\org\codehaus\jackson\node\NodeCursor.java
+* lib-src\org\codehaus\jackson\node\NullNode.java
+* lib-src\org\codehaus\jackson\node\NumericNode.java
+* lib-src\org\codehaus\jackson\node\ObjectNode.java
+* lib-src\org\codehaus\jackson\node\POJONode.java
+* lib-src\org\codehaus\jackson\node\TextNode.java
+* lib-src\org\codehaus\jackson\node\TreeTraversingParser.java
+* lib-src\org\codehaus\jackson\node\ValueNode.java
+* lib-src\org\codehaus\jackson\node\package-info.java
+* lib-src\org\codehaus\jackson\package-info.java
+* lib-src\org\codehaus\jackson\schema\
+* lib-src\org\codehaus\jackson\schema\JsonSchema.java
+* lib-src\org\codehaus\jackson\schema\JsonSerializableSchema.java
+* lib-src\org\codehaus\jackson\schema\SchemaAware.java
+* lib-src\org\codehaus\jackson\schema\package-info.java
+* lib-src\org\codehaus\jackson\sym\
+* lib-src\org\codehaus\jackson\sym\BytesToNameCanonicalizer.java
+* lib-src\org\codehaus\jackson\sym\CharsToNameCanonicalizer.java
+* lib-src\org\codehaus\jackson\sym\Name.java
+* lib-src\org\codehaus\jackson\sym\Name1.java
+* lib-src\org\codehaus\jackson\sym\Name2.java
+* lib-src\org\codehaus\jackson\sym\Name3.java
+* lib-src\org\codehaus\jackson\sym\NameN.java
+* lib-src\org\codehaus\jackson\sym\package-info.java
+* lib-src\org\codehaus\jackson\type\
+* lib-src\org\codehaus\jackson\type\JavaType.java
+* lib-src\org\codehaus\jackson\type\TypeReference.java
+* lib-src\org\codehaus\jackson\type\package-info.java
+* lib-src\org\codehaus\jackson\util\
+* lib-src\org\codehaus\jackson\util\BufferRecycler.java
+* lib-src\org\codehaus\jackson\util\ByteArrayBuilder.java
+* lib-src\org\codehaus\jackson\util\CharTypes.java
+* lib-src\org\codehaus\jackson\util\InternCache.java
+* lib-src\org\codehaus\jackson\util\JsonGeneratorDelegate.java
+* lib-src\org\codehaus\jackson\util\JsonParserDelegate.java
+* lib-src\org\codehaus\jackson\util\JsonParserSequence.java
+* lib-src\org\codehaus\jackson\util\TextBuffer.java
+* lib-src\org\codehaus\jackson\util\TokenBuffer.java
+* lib-src\org\codehaus\jackson\util\package-info.java
+* lib\
+* lib\jmdns.jar
+* license
+* proguard.cfg
+* xbmc-remote-sign.keystore
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* libs\acra-4.4.0.jar => app\libs\acra-4.4.0.jar
+* libs\jmdns.jar => app\libs\jmdns.jar
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

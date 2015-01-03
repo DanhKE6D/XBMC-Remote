@@ -13,4 +13,10 @@ This is a fork from the official XBMC Remote v1.09 Project to fix a number of bu
      bring up the setting option menu.
   4. Touching the title bar of the nowplaying, playlist, media browsing list will bring up the option menu for that
      activity/controller
+  5. After spending considerate amount of time tracing through the logic of Media file browsing logic attempting to
+     fix the problem with index out of bound error that caused "java.lang.ArrayIndexOutOfBoundsException: length=61; index=-1
+     at android.text.StaticLayout.calculateEllipsis(StaticLayout.java:740)" during file browsing. I finally found the problem
+     in the titlebar.xml. It looked like android:ellipsize="start" causes random crash in certain device/directory structures.
+     add the line android:singleLine="true" fixes the crashing problem!!!!
+
 

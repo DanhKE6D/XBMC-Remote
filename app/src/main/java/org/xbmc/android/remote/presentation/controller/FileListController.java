@@ -147,10 +147,10 @@ public class FileListController extends ListController implements IController {
 	private class FileItemAdapter extends ArrayAdapter<FileLocation> {
 		FileItemAdapter(Activity activity, ArrayList<FileLocation> items) {
 			super(activity, 0, items);
-            LOG.D(TAG, "FileItemAdapter.FileItemAdapter");
+            //LOG.D(TAG, "FileItemAdapter.FileItemAdapter");
 		}
 		public View getView(int position, View convertView, ViewGroup parent) {
-            LOG.D(TAG, "FileItemAdapter.getView(): position = " + position);
+            //LOG.D(TAG, "FileItemAdapter.getView(): position = " + position);
 			final OneLabelItemView view;
 			if (convertView == null) {
 				view = new OneLabelItemView(mActivity, parent.getWidth(), mFallbackBitmap, mList.getSelector(), true);
@@ -196,7 +196,7 @@ public class FileListController extends ListController implements IController {
 					view.setCover(BitmapFactory.decodeResource(res, R.drawable.icon_file));
 				}
 			}
-            LOG.D(TAG, "exit FileItemAdapter.getView()");
+            //LOG.D(TAG, "exit FileItemAdapter.getView()");
 			return view;
 		}
 	}
@@ -221,13 +221,13 @@ public class FileListController extends ListController implements IController {
                         LOG.D(TAG,"item = " + item.name);
 						mFileItems.put(item.name, item);
 					}
-                    LOG.D(TAG,"Setting file item adapter...");
+                    //LOG.D(TAG,"Setting file item adapter...");
                     setListAdapter(new FileItemAdapter(mActivity, value));
 				}
                 else {
 					setNoDataMessage("No files found.", R.drawable.icon_folder_dark);
 				}
-                LOG.D(TAG,"value.size() = " + value.size());
+                //LOG.D(TAG,"value.size() = " + value.size());
 			}
 		};
 		
@@ -237,7 +237,7 @@ public class FileListController extends ListController implements IController {
         else {
 			mInfoManager.getDirectory(mediaListHandler, mGettingUrl, mActivity.getApplicationContext(), mMediaType);
 		}
-        LOG.D(TAG,"fillUp() done");
+        //LOG.D(TAG,"fillUp() done");
 	}
 	
     /**
@@ -246,7 +246,7 @@ public class FileListController extends ListController implements IController {
     public void setListAdapter(ListAdapter adapter) {
         // dql - this is crashing under certain condition -- need to find out why
         synchronized (this)  {
-            LOG.D(TAG,"setListAdapter()...");
+            //LOG.D(TAG,"setListAdapter()...");
 
             mAdapter = adapter;
             //((AdapterView<ListAdapter>) mList).setAdapter(adapter);

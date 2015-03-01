@@ -84,11 +84,14 @@ public class InfoClient extends Client implements IInfoClient {
 
 		final ArrayList<FileLocation> shares = new ArrayList<FileLocation>();
 		final JsonNode jsonShares = mConnection.getJson(manager, "Files.GetSources", obj().p("media", MediaType.getName(mediaType)));
-		if (jsonShares != null){
-			for (Iterator<JsonNode> i = jsonShares.get("sources").getElements(); i.hasNext();) {
-				JsonNode jsonShare = (JsonNode)i.next();
-				shares.add(new FileLocation(getString(jsonShare, "label"), getString(jsonShare, "file")));
-			}
+		if (jsonShares != null) {
+            JsonNode jNode = jsonShares.get("sources");
+            if (jNode != null) {
+			    for (Iterator<JsonNode> i = jNode.getElements(); i.hasNext();) {
+				    JsonNode jsonShare = (JsonNode) i.next();
+				    shares.add(new FileLocation(getString(jsonShare, "label"), getString(jsonShare, "file")));
+			    }
+            }
 		}
 		return shares;
 	}
